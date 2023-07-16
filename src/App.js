@@ -28,7 +28,7 @@ function App() {
     }
   }
   const obtenerDatos = async () => {
-    const res = await fetch('http://localhost:3000/pizzas.json');
+    const res = await fetch('/pizzas.json');
     const datos = await res.json();
     setPizzas([...datos]);
   }
