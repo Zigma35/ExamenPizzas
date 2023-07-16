@@ -2,37 +2,29 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.ingrediente {
+  list-style: none;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.nav-link,
+.nav-link:hover,
+.nav-link:focus {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-darkgreen {
+  background-color: #007585; /* Cambia este valor por el verde agua oscuro deseado */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bananer {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 0;
+  background-image: url('./assets/img/pizzaBanner.jpg');
+  background-size: cover;
 }
